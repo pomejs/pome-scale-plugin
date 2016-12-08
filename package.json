@@ -1,0 +1,35 @@
+{
+  "name": "pome-scale-plugin",
+  "version": "1.0.1",
+  "description": "自动扩展服务器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pomejs/pome-scale-plugin.git"
+  },
+  "keywords": [
+    "pome",
+    "pome-scale"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pomejs/pome-scale-plugin/issues"
+  },
+  "homepage": "https://github.com/pomejs/pome-scale-plugin#readme",
+
+  "dependencies": {
+    "async": ">=0.6.2",
+    "pome-logger": "^0.1.2"
+  },
+
+  "devDependencies":
+  {
+    "eslint":"*",
+    "mocha": ">=0.0.1",
+    "should": ">=0.0.1"
+  }
+}
